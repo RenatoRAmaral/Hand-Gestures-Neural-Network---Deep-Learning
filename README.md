@@ -33,9 +33,9 @@ Na definição da arquitetura do modelo LSTM, também são especificados parâme
 
 #Compilação e Treino do Modelo
 
-*O modelo é compilado com o otimizador Adam e a função de perda binary_crossentropy. Em seguida, é treinado usando os dados de treino e validação.
+* O modelo é compilado com o otimizador Adam e a função de perda binary_crossentropy. Em seguida, é treinado usando os dados de treino e validação.
 Otimizador Adam: Adam é um algoritmo de otimização popular usado para ajustar os pesos da rede neural durante o treino. Combina técnicas de momentum e gradiente descendente estocástico para atualizar os pesos de forma eficiente, levando em consideração tanto o gradiente atual como também o gradiente acumulado ao longo do tempo.
-*Função de Perda Binary Crossentropy: É uma função de perda comumente usada em problemas de classificação binária. No entanto, neste contexto multiclasse, ela ainda é aplicada devido à forma como os rótulos foram codificados (one-hot encoding). A função binary crossentropy calcula a diferença entre as probabilidades previstas pelo modelo e as probabilidades reais dos rótulos, penalizando desvios significativos entre essas probabilidades.
+* Função de Perda Binary Crossentropy: É uma função de perda comumente usada em problemas de classificação binária. No entanto, neste contexto multiclasse, ela ainda é aplicada devido à forma como os rótulos foram codificados (one-hot encoding). A função binary crossentropy calcula a diferença entre as probabilidades previstas pelo modelo e as probabilidades reais dos rótulos, penalizando desvios significativos entre essas probabilidades.
 Dados de treino e teste: Durante o treino o modelo é ajustado iterativamente usando os dados de treino. Além disso, a validação é realizada em um conjunto separado de dados chamado conjunto de teste. Isso ajuda a monitorar o desempenho do modelo em dados não vistos durante o treino e a evitar o overfitting. Durante o treino, os pesos do modelo são atualizados de acordo com a função de perda e o algoritmo de otimização, e o desempenho é avaliado usando a métrica de precisão (accuracy) e a métrica de perda (loss).
 Os resultados do treino são visualizados por meio de gráficos de precisão (accuracy) e perda (loss).
 
@@ -43,8 +43,8 @@ Os resultados do treino são visualizados por meio de gráficos de precisão (ac
 
 Este projeto explorou o uso machine learning, especificamente networks Long Short-Term Memory (LSTM), para o reconhecimento de gestos com base em dados de sensores. O conjunto de dados utilizado foi originalmente destinado ao desenvolvimento de próteses biónicas. Ao demonstrar a viabilidade de classificar diversos gestos de mão com alta precisão, este trabalho podia contribuir para os sistemas de controlo das próteses biónicas. 
 Próximos passos:
-*Ajuste de Hiperparâmetros: Otimizar o desempenho do modelo ajustando hiperparâmetros pode levar a um reconhecimento de gestos ainda mais preciso. 
-*Integração próteses biónicas: Integrar o modelo de reconhecimento de gestos com próteses biónicas reais será um passo crucial rumo a aplicações do mundo real. Testes e refinamentos nesse contexto são essenciais. 
-*Exploração de Sensores Adicionais: Investigar a incorporação de outras modalidades de sensores (por exemplo, sensores de força, eletromiografia) poderia fornecer informações mais ricas para o reconhecimento de gestos e melhorar as capacidades de controlo.
-*Integração em leitura de imagens: Integrar o modelo para leitura de imagens ou vídeo juntamente com os sensores para conseguir analisar linguagem gestual.
+* Ajuste de Hiperparâmetros: Otimizar o desempenho do modelo ajustando hiperparâmetros pode levar a um reconhecimento de gestos ainda mais preciso. 
+* Integração próteses biónicas: Integrar o modelo de reconhecimento de gestos com próteses biónicas reais será um passo crucial rumo a aplicações do mundo real. Testes e refinamentos nesse contexto são essenciais. 
+* Exploração de Sensores Adicionais: Investigar a incorporação de outras modalidades de sensores (por exemplo, sensores de força, eletromiografia) poderia fornecer informações mais ricas para o reconhecimento de gestos e melhorar as capacidades de controlo.
+* Integração em leitura de imagens: Integrar o modelo para leitura de imagens ou vídeo juntamente com os sensores para conseguir analisar linguagem gestual.
 Além das conquistas técnicas, este projeto despertou uma forte motivação em nós para explorar mais as redes neurais e o TensorFlow. A habilidade de construir sistemas inteligentes que podem aprender e se adaptar é verdadeiramente impressionante. No geral, este projeto demonstra o potencial de machine learning para o reconhecimento de gestos, contribuindo para o avanço das próteses biónicas e seu potencial de transformar diversos campos.
