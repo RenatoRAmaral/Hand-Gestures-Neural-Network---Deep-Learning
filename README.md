@@ -5,6 +5,7 @@ O objetivo é desenvolver um modelo que possa classificar com precisão diferent
 * Reconhecimento de linguagem gestual
 * Melhorar os movimentos de próteses mecânicas
 * Pode ser usada para uma nova forma de interagir com um “computador “ ou interface
+
 O conjunto de dados contém mais de 11 mil instâncias, onde cada uma corresponde a uma medição obtida por um procedimento diagnóstico médico chamado Eletromiografia (EMG), no qual é recolhida a atividade elétrica dos músculos através de transdutores. O conjunto de dados atual contém medições para 4 classes diferentes, onde 0 representa o gesto de Pedra, 1 representa Tesoura, 2 representa Papel e 3 representa Ok. O objetivo é criar um modelo capaz de identificar corretamente o gesto realizado com base nas medições de EMG.
 Carregamento e Pré-processamento dos Dados
 Nesta parte, os dados são carregados a partir de arquivos CSV (0.csv, 1.csv, 2.csv, 3.csv) e concatenados em um único DataFrame chamado gesto. Os recursos são armazenados na variável x e os rótulos são armazenados na variável y.
