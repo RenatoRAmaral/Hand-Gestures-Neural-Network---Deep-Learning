@@ -47,4 +47,5 @@ Próximos passos:
 * Integração próteses biónicas: Integrar o modelo de reconhecimento de gestos com próteses biónicas reais será um passo crucial rumo a aplicações do mundo real. Testes e refinamentos nesse contexto são essenciais. 
 * Exploração de Sensores Adicionais: Investigar a incorporação de outras modalidades de sensores (por exemplo, sensores de força, eletromiografia) poderia fornecer informações mais ricas para o reconhecimento de gestos e melhorar as capacidades de controlo.
 * Integração em leitura de imagens: Integrar o modelo para leitura de imagens ou vídeo juntamente com os sensores para conseguir analisar linguagem gestual.
+
 Além das conquistas técnicas, este projeto despertou uma forte motivação em nós para explorar mais as redes neurais e o TensorFlow. A habilidade de construir sistemas inteligentes que podem aprender e se adaptar é verdadeiramente impressionante. No geral, este projeto demonstra o potencial de machine learning para o reconhecimento de gestos, contribuindo para o avanço das próteses biónicas e seu potencial de transformar diversos campos.
