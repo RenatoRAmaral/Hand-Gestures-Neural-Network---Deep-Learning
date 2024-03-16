@@ -1,4 +1,4 @@
-﻿Hand Gesture Prediction Model
+# ﻿Hand Gesture Prediction Model
  
 O Dataset utilizado encontra-se em Classify gestures by reading muscle activity. (kaggle.com)
 O objetivo é desenvolver um modelo que possa classificar com precisão diferentes gestos de mão usando leituras de sensores. Essa tecnologia tem aplicações potenciais em diversos campos, incluindo:
